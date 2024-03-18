@@ -16,12 +16,11 @@
                     "sec-ch-ua": "\"Not_A Brand\";v=\"24\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"122\"",
                     "sec-ch-ua-mobile": "?0",
                     "sec-ch-ua-platform": "\"Windows\"",
-                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Dest": "document",
                     "Sec-Fetch-Mode": "cors",
-                    "Sec-Fetch-Site": "same-site"
+                    "Sec-Fetch-Site": "none"
                 }
             }
         ]
     },
     {
-               
