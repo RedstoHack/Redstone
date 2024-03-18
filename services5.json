@@ -6,7 +6,7 @@
         "requests": [
             {
                 "method": "POST",
-                "url": "https://info-api.er.ru/api/auth/authenticate",
+                "url": "https://info.er.ru/login",
                 "json": {
                     "phone": "{phone}"
                 },
