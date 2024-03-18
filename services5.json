@@ -5,22 +5,18 @@
         ],
         "requests": [
             {
-                "method": "GET",
-                "url": "https://zamm.ru/auth/",
+                "method": "POST",
+                "url": "https://priem.menu/login",
                 "json": {
                     "phone": "{phone}"
                 },
                 "headers": {
-                    "Host": "zamm.ru",
-                    "Referer": "https://zamm.ru/auth/",
-                    "sec-ch-ua": "\"Not_A Brand\";v=\"24\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"122\"",
+                    "Host": "admin.growfood.pro",
+                    "Origin": "https://priem.menu",
+                    "Referer": "https://priem.menu/",
+                    "sec-ch-ua": "\"Not_A Brand\";v=\"99\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"109\"",
                     "sec-ch-ua-mobile": "?0",
                     "sec-ch-ua-platform": "\"Windows\"",
-                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-Dest": "empty",
                     "Sec-Fetch-Mode": "cors",
-                    "Sec-Fetch-Site": "none"
-                }
-            }
-        ]
-    },
-    {
+                    "Sec-Fetch-Site": "cross-site"
