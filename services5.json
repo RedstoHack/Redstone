@@ -1,0 +1,29 @@
+[
+    {
+        "phone_codes": [
+            7
+        ],
+        "requests": [
+            {
+                "method": "POST",
+                "url": "https://info-api.er.ru/api/auth/authenticate",
+                "json": {
+                    "phone": "{phone}"
+                },
+                "headers": {
+                    "Host": "info.er.ru",
+                    "Origin": "https://info.er.ru",
+                    "Referer": "https://info.er.ru/",
+                    "sec-ch-ua": "\"Not_A Brand\";v=\"24\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"122\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"Windows\"",
+                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Mode": "cors",
+                    "Sec-Fetch-Site": "same-site"
+                }
+            }
+        ]
+    },
+    {
+                    
+  
