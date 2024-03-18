@@ -6,7 +6,7 @@
         "requests": [
             {
                 "method": "POST",
-                "url": "https://priem.menu/login",
+                "url": "https://admin.growfood.pro/api/personal-cabinet/v1/authentication/send-sms",
                 "json": {
                     "phone": "{phone}"
                 },
