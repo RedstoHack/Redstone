@@ -1,0 +1,27 @@
+[
+    {
+        "phone_codes": [
+            7
+        ],
+        "requests": [
+            {
+                "method": "POST",
+                "url": "https://authd.vsk.ru/auth/realms/k360/protocol/openid-connect/auth?client_id=prod-keycloak_users_auth_dmz_k360lk_ui-2&redirect_uri=https%3A%2F%2Fshop.vsk.ru%2Fsso%2F%3Flocation%3D%252Faccount%26utm_source%3Dvsk.ru%26utm_medium%3Dreferral%26utm_campaign%3Dvsk.ru%26utm_referrer%3Dvsk.ru&state=3769a94d-86c5-4ad4-afe5-c28e0ec8468a&response_mode=fragment&response_type=code&scope=openid&nonce=d525d2b9-0d59-461d-8561-5e2a11e6168d&code_challenge=yj34TsVNvvykbJitUOND7L84vo2yOk2A2AeabkU7jcc&code_challenge_method=S256",
+                "json": {
+                    "phone": "{phone}"
+                },
+                "headers": {                   
+                    "Host": "authd.vsk.ru",
+                    "Origin": "https://authd.vsk.ru",
+                    "Referer": "https://authd.vsk.ru/",
+                    "sec-ch-ua": "\"Not_A Brand\";v=\"99\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"109\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"Windows\"",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-Mode": "navigate",
+                    "Sec-Fetch-Site": "same-origin"
+                }
+            }
+        ]      
+    }  
+]
